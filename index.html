@@ -13,7 +13,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://github.com/sindresorhus/modern-normalize/blob/0c3cb3a7dcf0fb4242a8736127a1d717b704c360/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -45,14 +45,14 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-btn btn">Замовити послугу</button>
         </div>
       </section>
-      <section class="features">
-        <h2 class="features-title">Наші принципи роботи</h2>
+      <section class="features section">
+        <h2 class="features-title hidden">Наші принципи роботи</h2>
         <ul class="features-list list">
           <li class="features-item">
             <h3 class="features-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -83,7 +83,7 @@
           </li>
         </ul>
       </section>
-      <section class="works">
+      <section class="works section">
         <h2 class="works-title">Чим ми займаємося</h2>
         <ul class="works-list list">
           <li class="works-item">
@@ -112,11 +112,11 @@
           </li>
         </ul>
       </section>
-      <section class="team">
+      <section class="team section">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list list">
           <li class="team-item">
-            <img
+            <img class="team-img"
               src="./images/img1.jpg"
               alt="Ігор Дем'яненко"
               width="270"
@@ -126,7 +126,7 @@
             <p class="team-text">Product Designer</p>
           </li>
           <li class="team-item">
-            <img
+            <img class="team-img"
               src="./images/img2.jpg"
               alt="Ольга Репіна"
               width="270"
@@ -136,7 +136,7 @@
             <p class="team-text">Frontend Developer</p>
           </li>
           <li class="team-item">
-            <img
+            <img class="team-img"
               src="./images/img3.jpg"
               alt="Микола Тарасов"
               width="270"
@@ -146,7 +146,7 @@
             <p class="team-text">Marketing</p>
           </li>
           <li class="team-item">
-            <img
+            <img class="team-img"
               src="./images/img4.jpg"
               alt="Михайло Єрмаков"
               width="270"
@@ -159,27 +159,25 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo link">
-        Web<span class="logo-footer logo">Studio</span></a
-      >
+      <div class="footer-logo">
+        <a href="./index.html" class="logo link">
+        Web<span class="logo-footer logo">Studio</span></a>
+      </div>
       <address class="footer-address">
         <ul class="address-list list">
           <li class="address-item">
             <a
               href="https://goo.gl/maps/7oADpj2Zgg1aANnz5"
               class="address-link-map link"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
+              >м. Київ, пр-т Лесі Українки, 26</a>
           </li>
           <li class="address-item">
             <a href="mailto:info@devstudio.com" class="address-link link"
-              >info@devstudio.com</a
-            >
+              >info@devstudio.com</a>
           </li>
           <li class="address-item">
             <a href="tel:+380961111111" class="address-link link"
-              >+38 096 111 11 119</a
-            >
+              >+38 096 111 11 119</a>
           </li>
         </ul>
       </address>
