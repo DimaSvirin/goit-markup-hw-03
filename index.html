@@ -11,45 +11,45 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://github.com/sindresorhus/modern-normalize/blob/0c3cb3a7dcf0fb4242a8736127a1d717b704c360/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" class="logo link">
-        Web<span class="logo-header logo">Studio</span></a
-      >
-      <nav>
-        <ul class="header-nav list">
-          <li class="header-nav-item">
-            <a href="./index.html" class="link current">Студія</a>
+      <div class="container">
+        <a href="./index.html" class="logo link">Web<span class="logo-header logo">Studio</span></a>
+        <nav class="header-nav">
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a href="./index.html" class="link current">Студія</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#" class="link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts list">
+          <li class="header-contacts-item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
           </li>
-          <li class="header-nav-item">
-            <a href="./portfolio.html" class="link"
-              >Портфоліо</a
-            >
-          </li>
-          <li class="header-nav-item">
-            <a href="#" class="link">Контакти</a>
+          <li class="header-contacts-item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="header-contacts list">
-        <li class="header-contacts-item">
-          <a href="mailto:info@devstudio.com" class="header-contacts-link link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contacts-item">
-          <a href="tel:+380961111111" class="header-contacts-link link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero-btn btn">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero-btn btn">Замовити послугу</button>
+        </div>
       </section>
       <section class="features">
         <h2 class="features-title">Наші принципи роботи</h2>
