@@ -68,10 +68,8 @@ address {
 .main-nav {
     display: flex;
     align-items: center;
-    justify-content: start;
-
-
 }
+
 .logo {
     color: var(--active-color);
     font-family: 'Raleway';
@@ -191,9 +189,15 @@ address {
 
 .features-title {}
 
-.features-list {}
+.features-list {
+    display: flex;
+    gap: 30px;
+}
 
-.features-item {}
+.features-item {
+    width: 270px;
+    
+}
 
 .features-subtitle {
         font-size: 14px;
@@ -222,7 +226,10 @@ address {
         margin-bottom: 50px;
 }
 
-.works-list {}
+.works-list {
+    display: flex;
+    gap: 30px;
+}
 
 .works-item {}
 
@@ -241,7 +248,10 @@ address {
         margin-bottom: 50px;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+    gap: 30px;
+}
 
 .team-item {
     display: inline-block;
@@ -249,7 +259,9 @@ address {
 
     padding-bottom: 30px;
 }
-
+.team-description {
+    padding: 30px auto;
+}
 .team-subtitle {
     font-weight: 500;
         font-size: 16px;
