@@ -153,13 +153,14 @@ address {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.hero.section {
+.hero-section {
     background: var(--background);
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
-/* .hero-position {
-    padding: 200px 452px;
-} */
 .hero-title {
+    
     margin-bottom: 30px;
 
     font-weight: 900;
@@ -304,7 +305,7 @@ address {
 
 .address-list {}
 
-.address-item {
+.address-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
